@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/* Mobile  */
+
+@media screen and (max-width:500px){
+    /* ---------------------area habilitar oque mostrar ----------------------------*/
+        .slide{
+            display: none;
+        }
+        #noMobile{
+            display: none;
+        }
+        .noMobile{
+            display: none;
+        }
+        .mobile{
+            display: block;
+        }
+        #mobile{
+            display: block;
+        }
+        /* Fecho de Area de habilitacao */
+
+    *{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100vw;
+    height: 100vh;
+}
+.toggle{
+    margin-top: -3%;
+}
+        /* ----------------------------Main Conversor de texto--------------------- */
+main h2{
+    padding: 10px;
+}
+main h2 span{
+    color: rgb(228, 138, 13);
+}
+main textarea{
+    padding: 10px;
+    color: black;
+    min-height: 20vh;
+    border-radius: 5px;
+}
+
+#entrada-de-conteudo{
+    display: block;
+}
+.mobilebtn{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.accao-box select{
+    width: 100%;
+    border-radius: 5px;
+    border: solid 1px;
+}
+.accao-box .btn{
+    width: 100%;
+   padding: 8px;
+    background-color: rgb(228, 138, 13);
+    border-radius: 7px;
+}
+#baixar-texto-btnm{
+    width: 40%;
+}
+input[type="file"]{
+    display: none;
+}
+.upload{
+    padding: 10px;
+}
+#label-upload{
+    padding: 8px;
+    background-color: rgb(228, 138, 13);
+    border-radius: 7px;
+}
+.baixar{
+    padding: 20px;
+    text-align: left;
+}
+.baixar p{
+    font-size: .9rem;
+    
+}
+.baixar p span{
+    color: rgb(228, 138, 13);
+}
+/* fim do conversordetexto em Audio */
+
+/* CV */
+#cv{
+    display: block;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+}
+}

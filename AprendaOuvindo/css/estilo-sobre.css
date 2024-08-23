@@ -1,0 +1,33 @@
+main{
+     background-color: rgb(194, 194, 240);
+     /* color: white; */
+}
+#sobre{
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-indent: 5px;
+}
+#sobre p{
+    text-align: justify;
+    padding: 5px;
+    
+}
+.info{
+    text-align: center;
+    padding: 5px;
+}
+.info p{
+    padding: 10px 0;
+}
+
+@media screen and (max-width:500px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    #sobre{
+        width: 100vw;
+
+    }
+}

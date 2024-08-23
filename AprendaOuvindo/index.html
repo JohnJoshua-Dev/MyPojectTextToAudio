@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AprendaOuvindo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/estilo-CV.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <!-- <script src="js/script.js"></script> -->
+</head>
+<body>
+    <header id="cabecalho" class="mobile">
+        <h1 id="title" class="mobile"><span>Aprenda </span>Ouvindo</h1>
+
+        <a href="interface/menuMobile.html" id="mobile">
+            <div class="toggle" id="MenuMobile">
+                <span class="top_line comum"></span>
+                <span class="middle_line comum"></span>
+                <span class="bottom_line comum"></span>
+            </div>
+            </a>
+               <!-- <div class="slide">
+                 <h1>Menu</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="ajuda.html">Ajuda</a></li>
+                <li><a href="cv.html">Programador</a></li>
+                
+            </ul>
+            </div> -->
+    </header>
+    <header id="noMobile">
+    <h1 class="noMobile"><span>Aprenda</span> Ouvindo<span><img src="icon/idea_7267650.png" alt="" class="iconClass" id="logo"></span> </h1>
+        
+
+        <!-- menu -->
+        <label class="noMobile">
+            <input type="checkbox" name="" id="">
+            <div class="toggle" id="noMobile">
+                <span class="top_line comum"></span>
+                <span class="middle_line comum"></span>
+                <span class="bottom_line comum"></span>
+            </div>
+            <div class="slide">
+                 <h1>Menu</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="ajuda.html">Ajuda</a></li>
+                <li><a href="cv.html">Programador</a></li>
+                
+            </ul>
+            </div> 
+        </label>
+    </header>
+        
+   <main>
+
+        <div class="container">
+            <br><br>
+            <h2 class="mobile">Conversor de <span>Texto</span> para <span>Fala</span></h2>
+            <h1 class="noMobile">Conversor de <span>Texto</span> para <span>Fala</span></h1>
+            <p class="noMobile">Digita um texto ou envie algum arquivo para ser lido</p>
+            <p class="mobile">Digita um texto para ser lido</p>
+
+            <div id="entrada-de-conteudo" class="">
+                <textarea  id="entrada-de-texto" placeholder="Digita o Texto"></textarea>
+                    <label for="upload-arquivo" id="arquivo-label" class="noMobile" >Enviar Arquivo</label>
+                    <input type="file" id="upload-arquivo" accept=".pdf" class="noMobile">
+                </div>
+            
+        <div class="accoes noMobile">
+            <div class="accao-box">
+                <p>Seleciona a Voz:</p>
+                <select name="selecao" id="selecao-voz"></select>
+            </div>
+            <div class="accao-box">
+                <p>Clique para Ouvir</p>
+                <button id="ouvir-btn">Ouvir</button>
+            </div>
+            <div class="acao-box">
+            <div class="accao-box noMobile">
+                <p>Obtenha um arquivo do Conteudo</p>
+                <button id="baixar-texto-btn">Baixar Texto</button>
+            </div>
+        </div>
+        </div>
+            <div class="mobilebtn mobile">
+                        <div class="btnGroup accao-box">
+                            <p>Seleciona a Voz</p>
+                            <select name="selecao" id="selecao-vozm"></select>
+                        </div>
+                        <div class="accao-box">
+                            <p>Clique para Ouvir</p>
+                             <button id="ouvir-btnm" class="btn">Ouvir</button>
+                        </div>
+                    </div>
+                    <div class="upload mobile">
+                    <p id="intro">Pode Enviar um arquivo pdf para ser lido</p><br>
+                        <label for="upload-arquivom" id="label-upload">Ficheiro</label>
+                        <input type="file" name="upload" id="upload-arquivom" accept="pdf" class="btn">
+                    </div>
+
+                    <div class="baixar accao-box mobile">
+                        <p class="mobile">Voce pode baixar o documento em formato:<br><span>Word</span></p>
+                        <button id="baixar-texto-btnm" class="btn">Baixar Texto</button>
+                    </div>
+        <br>
+   </main>
+   <footer>
+        <div class="containerfooter">
+    <div>
+        <p><b>Josue Sitoe</b></p>
+        <p><a href="https://github.com/JohnJoshua-Dev"><img src="icon/github.png" alt="" class="iconClass">JohnJoshua-Dev</a></p>
+        <p><img src="icon/marcador.png" alt="" class="iconClass">Maputo, Marracuene Rua. EPC Filipe Samuel Magaia</p>
+        <p><img src="icon/phone_1151429.png" alt="" class="iconClass">+258 87 2737 483</p>
+    </div>
+    <div class="redes">
+        <nav>
+        <p><b>Redes Sociais</b></p>
+        <p><a href="https://www.instagram.com/josue_john_joshua/"><img src="icon/—Pngtree—instagram icon logo_3560506.png" alt="" class="iconClass">josue_john_joshua</a></p>
+        <p><a href="https://web.facebook.com/josue.rafael.7568/"><img src="icon/—Pngtree—facebook social media icon_8704814.png" alt="" class="iconClass">josue_john_joshua</a></p>
+        <p><a href="www.linkedin.com/in/josué-sitoe-programmer"><img src="icon/linkedin_1419518.png" alt="" class="iconClass">linkedin.com/in/josue-sitoe-programmer</a></p>
+        
+    </nav>
+    </div>
+    </div>
+    <br>
+    
+    <!-- &Todos Direitos Reservados: josuerafaelsitoe@gmail.com -->
+    &CopyRight: josuerafelsitoe@gmail.com
+    <br>
+   </footer>
+   
+   
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script src="js/script.js" class="noMobile" id="noMobile"></script>
+  <script src="js/script-mobile.js" class="mobile" id="mobile"></script>
+</body>
+</html>

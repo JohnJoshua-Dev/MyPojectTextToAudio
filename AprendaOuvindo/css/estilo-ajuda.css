@@ -1,0 +1,63 @@
+/* #ajuda{
+    width: 100vw;
+    height: 100vh;
+} */
+.search{
+    width: 40%;
+    display: flex;
+    padding: 10px;
+}
+.search input{
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 4px;
+    height: 40px;
+}
+.search label{
+    margin-top: 10px;
+}
+/* #ajuda{
+    width: 40%;
+    min-height: 20vh;
+} */
+ #texto{
+    width: 60%;
+    min-height: 20vh;
+    color: black;
+ }
+ .body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    margin: 0%;
+ }
+ .containerArea{
+    background-color: rgb(151, 177, 194);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0, .4);
+    width: 40%;
+}
+.containerArea h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+button{
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+}
+.fom-group label,input{
+    padding: 10px;
+}
+.fom-group input{
+    border-radius: 10px;
+}
+@media screen and (max-width:500px){
+    input{
+        width: 70%;
+    }
+    
+}

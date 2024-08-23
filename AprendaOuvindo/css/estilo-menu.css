@@ -1,0 +1,30 @@
+main{
+    background-color: aquamarine;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+.toggle .bottom_line{
+        left: 2px;
+    top: 14px;
+    width: 25px;
+    transform: rotate(-45deg);
+}
+.toggle .top_line{
+ left: 2px;
+    top: 14px;
+    width: 25px;
+    transform: rotate(45deg);
+}
+.toggle .middle_line{
+opacity: 0;
+    transform: translateX(20px);
+}
+body{
+    background: linear-gradient(90deg, #320b74 0%, #090979 35%, #005b6e 100%);
+}
